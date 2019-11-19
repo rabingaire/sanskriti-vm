@@ -1,7 +1,16 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/rabingaire/sanskriti-vm/pkg/stack"
+)
 
 func main() {
-	fmt.Println("sanskriti-vm")
+	stack := stack.New()
+
+	stack.Push("sanskriti-vm")
+
+	fmt.Println(stack.Pop())
+	fmt.Println(stack.Size())
 }

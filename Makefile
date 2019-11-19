@@ -6,3 +6,7 @@ include $(APP_ROOT)/Makefile.helpers
 ## Run sanskriti-vm
 run:
 	@go run main.go
+
+## run sanskriti-vm test
+test:
+	@go test ./...
