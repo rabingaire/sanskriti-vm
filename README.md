@@ -4,7 +4,7 @@ Language Virtual Machine written in go
 
 ## Instruction Set
 
-1.  IADD
-2.  PRINT
-3.  ICONST
+1.  ICONST
+2.  IADD
+3.  PRINT
 4.  HALT
